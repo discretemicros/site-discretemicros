@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discretemicros</title>
+    <link href="templatemo-personal-style.css" rel="stylesheet">
+
+    <!--
+
+TemplateMo 593 personal shape
+
+https://templatemo.com/tm-593-personal-shape
+
+-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="discretemicros" />
+                <span class="logo-text">Discretemicros</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <!-- <div class="hero-subtitle">Creative Designer</div> -->
+            <h1>Catch bugs before users do</h1>
+            <p class="subtitle">Ship faster. Build trust.</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- <h2 class="section-title fade-in">About Me</h2> -->
+            <div class="about-content">
+                <div class="about-image slide-in-left"></div>
+                <div class="about-text slide-in-right">
+                    <h3>Security-first QA for SaaS founders. We surface edge-case bugs, silent failures, and performance
+                        issues before they reach your users.</h3>
+                    <!-- <p>With over 5 years of experience in digital design, I specialize in creating user-centered
+                        solutions that bridge the gap between functionality and aesthetics. My approach combines
+                        strategic thinking with creative execution to deliver impactful results.</p>
+                    <p>I believe that great design is not just about how it looks, but how it works and how it makes
+                        people feel. Every project is an opportunity to solve problems and create connections that
+                        matter.</p>
+                    <p>When I'm not designing, you'll find me exploring new technologies, sketching ideas, or seeking
+                        inspiration in nature and architecture.</p> -->
+                    <div class="skills">
+                        <span class="skill-tag">Edge-case QA Audits</span>
+                        <span class="skill-tag">Mobile & Cross-browser Testing</span>
+                        <span class="skill-tag">API & Regression Testing</span>
+                        <span class="skill-tag">Security & Infra Validation</span>
+                        <span class="skill-tag">Performance Benchmarking</span>
+                        <span class="skill-tag">Founder-Centric Bug Reports</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>E-commerce Platform</h4>
+                        <p>A modern, responsive e-commerce solution with focus on user experience and conversion
+                            optimization. Built with scalability and performance in mind.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Brand Identity System</h4>
+                        <p>Complete visual identity redesign for a tech startup, including logo, guidelines, and digital
+                            assets. Creating a cohesive brand experience across all touchpoints.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Illustrator</span>
+                            <span class="tech-tag">Photoshop</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Mobile App Design</h4>
+                        <p>Intuitive mobile app interface for a fitness tracking application with focus on accessibility
+                            and user engagement through gamification.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Principle</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Lottie</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Dashboard Interface</h4>
+                        <p>Clean and functional dashboard design for data analytics platform with complex information
+                            architecture and real-time data visualization.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">SCSS</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Marketing Website</h4>
+                        <p>Modern marketing website with interactive animations and optimized conversion funnels. Built
+                            for maximum performance and SEO.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Framer Motion</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Creative Portfolio</h4>
+                        <p>Artistic portfolio website featuring immersive galleries, smooth transitions, and creative
+                            storytelling for a digital artist.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">GSAP</span>
+                            <span class="tech-tag">WebGL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Recent QA Wins</h2>
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Fintech MVP Launch</h4>
+                        <p>Performed edge-case QA audit for a fintech MVP. Caught 30+ critical bugs pre-launch, saving
+                            ₹2L+ in support costs and preventing onboarding failures.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">API Testing</span>
+                            <span class="tech-tag">Mobile QA</span>
+                            <span class="tech-tag">Timezone Validation</span>
+                            <span class="tech-tag">Notion Reports</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Multi-Region SaaS Deployment</h4>
+                        <p>Validated infrastructure setup across India, EU, and US. Hardened SSH, firewall, and password
+                            flows—zero post-launch security incidents.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">VM Setup</span>
+                            <span class="tech-tag">SSH & Firewall</span>
+                            <span class="tech-tag">Security QA</span>
+                            <span class="tech-tag">Loom Walkthroughs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Mobile Dashboard Optimization</h4>
+                        <p>Identified layout bugs and performance bottlenecks on mobile. Improved dashboard load time by
+                            25% for Indian users.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Cross-browser QA</span>
+                            <span class="tech-tag">Performance Benchmarking</span>
+                            <span class="tech-tag">Real Device Testing</span>
+                            <span class="tech-tag">India Latency</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Admin Panel Regression Suite</h4>
+                        <p>Built modular regression tests for a complex admin panel. Caught silent failures in
+                            role-based access and password reset flows.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Regression Testing</span>
+                            <span class="tech-tag">Role Logic</span>
+                            <span class="tech-tag">Password QA</span>
+                            <span class="tech-tag">Bug Prioritization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Founder-Facing Bug Reports</h4>
+                        <p>Delivered contextual bug reports with Loom walkthroughs and Notion exports. Helped founders
+                            prioritize fixes and ship faster.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Loom</span>
+                            <span class="tech-tag">Notion</span>
+                            <span class="tech-tag">Founder-Centric QA</span>
+                            <span class="tech-tag">Conversion-Safe Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>SaaS Onboarding Flow Audit</h4>
+                        <p>Audited onboarding flows for a B2B SaaS product. Found edge-case bugs in email verification,
+                            timezone logic, and mobile layout.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Edge-case QA</span>
+                            <span class="tech-tag">Email Verification</span>
+                            <span class="tech-tag">Mobile Layout</span>
+                            <span class="tech-tag">Timezone QA</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Let’s Catch Bugs Before Your Users Do</h2>
+                <p class="fade-in">
+                    Whether you're launching an MVP or scaling a SaaS product, we help you ship faster—with fewer
+                    surprises.
+                    Tell us about your platform, and we’ll surface the bugs that break trust, slow growth, or frustrate
+                    users.
+                    We specialize in edge-case QA, security-first validation, and performance benchmarking for global
+                    teams.
+                </p>
+                <div class="fade-in calendly-cta">
+                    <a href="https://calendly.com/discretemicros/free-mobile-qa-audit" target="_blank"
+                        class="submit-btn">
+                        Book a QA Discovery Call
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Discretemicros | All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="templatemo-personal-javascripts.js"></script>
+
+</body>
+
+</html>
